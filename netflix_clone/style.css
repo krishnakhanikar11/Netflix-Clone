@@ -1,0 +1,456 @@
+.container{
+    max-width: 100% !important; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header_logo{
+    width: 120px;
+}
+
+.btn-primary{
+    background-color: #e50914 !important;
+    border: none;
+    border: 2px solid #e50914 !important;
+}
+
+.main{
+    max-width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgba(228, 221, 221, 0.187) 10%, rgba(0,0,0, 0.80 ) 60%),url('back.jpeg');
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-size: cover; 
+    background-attachment: fixed;
+    
+}
+
+
+.banner{
+    margin-top: 7rem; 
+}
+
+
+.banner-h1{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    font-size: 3rem;
+    z-index: 10000;
+}
+
+
+.banner-h5{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    justify-content: center;
+    padding: .75rem 0;
+}
+
+.banner-p{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    justify-content: center;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.email-input{
+    
+    min-width: 400px;
+    height: 60px;
+    outline: none;
+    border-radius: 2px;
+    padding-left: .5rem;
+    border: none;
+    border: 1px solid white;
+    
+}
+
+#tab-1-content, #tab-2-content, #tab-3-content{
+    display: none;
+}
+
+.show{
+    display:  inline-flex !important;
+}
+
+.btn-email{
+    font-size: 1rem;
+    padding: 10px 10px;
+    text-decoration: none;
+    max-width: 300px;
+    height: 60px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #e50914 ;
+    border: 1px solid #e50914;
+    color: white;
+    
+}
+
+
+
+.btnemail{
+    font-size: 1rem;
+    padding: 10px 8px;
+    text-decoration: none;
+    min-width: 200px;
+    height: 60px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #e50914 ;
+    border: 1px solid #e50914;
+    color: white;
+    margin-top: 2rem;
+    
+}
+
+.btnemaile{
+    font-size: 1rem;
+    padding: 10px 8px;
+    text-decoration: none;
+    min-width: 200px;
+    height: 60px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #e50914 ;
+    border: 1px solid #e50914;
+    color: white;
+    margin-top: 2rem;
+    
+}
+
+.aboutus1{
+    padding: 2rem 7rem;
+    background-color: #000;
+    max-width: 100%;
+    border-bottom: 0.6rem solid #111;
+    
+}
+
+.part1{
+    width: 100%;
+}
+
+.part1a{
+    width: 100%;
+}
+
+.abouth2{
+    color: white;
+    font-size: 3.75rem;
+}
+
+.aboutp{
+    padding-top: 1rem;
+    color: white;
+    width: 80%;
+    font-size: 1.65rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+.border{
+    width: 100%;
+    height: .75rem;
+    background-color: bisque;
+}
+
+
+.subNow{
+    padding: 8rem 7rem;
+    background-color: #000;
+    max-width: 100%;
+    text-align: center;
+}
+
+.container1{
+    max-width: 70%;
+    margin: auto;
+    padding: 0 2rem ;
+}
+
+.container2{
+    max-width: 90%;
+    margin: auto;
+    padding: 0 1rem ;
+    text-align: center;
+}
+
+
+
+.tabs{
+    background-color: #141414;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.tabs p{
+    font-size: 1.2rem;
+    padding-top: .5rem;
+}
+
+.hov:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.aboutp1{
+    padding-top: 1rem;
+    color: #999;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 200;
+
+}
+
+.aboutp1e{
+    padding-top: 1rem;
+    color: #999;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 200;
+
+}
+
+.flexend{
+    margin-bottom: 2rem;
+}
+
+.lower-box{
+    padding-top: 3rem;
+}
+
+#content-3{
+    text-align: center;
+    overflow: hidden !important;
+}
+
+.tabletop{
+   
+    background-color: transparent !important;
+    border-bottom: transparent !important;
+    color: #fff;
+    padding: 0 1.75rem !important;
+    overflow: hidden !important;
+}
+
+.tabletop1{
+    max-width: 100%;
+    background-color: #141414 !important;
+    border-bottom: transparent !important; 
+}
+
+.tabletop2{
+    max-width: 100%;
+    border-bottom: transparent !important;
+}
+
+.colour{
+    color: rgb(96, 96, 96);
+
+}
+
+.footerlink{
+    margin-top: 3rem !important;
+    margin-bottom: 1rem ;
+}
+
+a {
+	color: #999 !important;
+    text-decoration: none !important;
+    font-size: 0.9rem !important;
+}
+
+
+.leftlist{
+    text-align: left;
+}
+.footer p {
+	margin-bottom: 1.5rem;
+}
+
+.leftside{
+    
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;  
+    color: rgb(96, 96, 96);
+}
+
+
+
+.lowerp1{
+    font-size: .90rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.lower2{
+    font-size: .90rem;
+    text-align: center;
+    color: #999; 
+}
+
+
+.tab-border{
+  
+    border-bottom: 0.3rem solid #e50914; 
+}
+
+
+
+@media screen and (max-width: 425px){
+
+    .main{
+        height: 100vh;
+        padding-bottom: 2rem; 
+    }
+
+    .banner{
+        margin-top: 4rem; 
+    }
+
+    .banner-h1{
+        font-size: 2rem; 
+    }
+    
+    
+    .banner-h5{
+        
+        font-size: 1rem;
+       
+    }
+    
+    .banner-p{
+        font-size: .75rem;
+        padding-bottom: 1rem;
+    }
+
+    .email-input{  
+        min-width: 100%;
+        text-align: center;
+    }
+    
+    
+    .btn-email{
+        min-width: 100%;
+        
+    }
+
+    .aboutus1{
+        padding: 1.5rem 3rem;
+    }
+
+    .part1{
+        max-width: 100%;
+    }
+    
+    .abouth2{
+        color: white;
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .aboutp{
+        padding-top: .75rem;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 200;
+    }
+
+    .subNow{
+        padding: 1.5rem 3rem;
+    }
+
+    .aboutus1{
+        padding: 2rem 2rem;
+    }
+
+
+    .container1{
+        margin: none;
+        padding: 0 ;
+        height: 100%;
+    }
+    
+    .container2{
+        max-width: 90%;
+        margin: none;
+        padding: 0 ;
+        overflow: hidden;
+        
+    }
+
+    .aboutp1{
+       
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: center;
+    
+    }
+
+    .aboutp1e{
+        padding-top: 1rem;
+        color: #999;
+        width: 65%;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: center;
+    
+    }
+
+    .part1a{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .leftside{
+        font-size: .75rem;
+    }
+    
+    .row>*{
+        padding-right: none !important; 
+        padding-left: none ;
+        margin-top: none ;
+    }
+
+    .sm-hide{
+        display: none;
+    }
+
+    .tab-border{
+        padding-bottom: 1rem;
+        border-bottom: 0.2rem solid #e50914;
+        
+    }
+
+    .btnemaile{
+        display: none;
+        
+    }
+
+
+
+
+
+}
