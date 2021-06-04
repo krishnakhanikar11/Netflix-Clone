@@ -25,7 +25,7 @@
     background-image: linear-gradient(to top right, rgba(228, 221, 221, 0.187) 10%, rgba(0,0,0, 0.80 ) 60%),url('back.jpeg');
     background-repeat: no-repeat;
     object-fit: fill;
-    background-size: contain; 
+    background-size: fit; 
     background-attachment: fixed;
     
 }
